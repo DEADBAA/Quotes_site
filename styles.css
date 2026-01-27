@@ -219,6 +219,7 @@ font-size: 14px;
     padding: 10px 15px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #000000;
 }
 
 .view-controls {
@@ -444,3 +445,4 @@ font-size: 14px;
 .image-card:nth-child(4) { animation-delay: 0.4s; }
 .image-card:nth-child(5) { animation-delay: 0.5s; }
 .image-card:nth-child(6) { animation-delay: 0.6s; }
+
