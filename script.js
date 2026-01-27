@@ -1,6 +1,6 @@
 
 function countPhotos() {
-    let photos = document.querySelectorAll('.photo');
+    let photos = document.querySelectorAll('.gallery-img');
     let counter = document.getElementById('count');
     
     if (counter) {
