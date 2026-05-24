@@ -1,7 +1,7 @@
 
 function countPhotos() {
     let photos = document.querySelectorAll('.gallery-img');
-    let counter = document.getElementById('count');
+    let counter = document.getElementById('image-counter');
     
     if (counter) {
         counter.textContent = photos.length;
@@ -22,7 +22,7 @@ function setupLikes() {
         button.addEventListener('click', function() {
             let likesSpan = this.querySelector('.likes');
             let currentLikes = parseInt(likesSpan.textContent);
-            Ы
+            
             if (this.classList.contains('liked')) {
                 // Убираем лайк
                 currentLikes--;
