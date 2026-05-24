@@ -10,14 +10,15 @@
     </head>
     <body>
         <header>
-            <h1>Цитаты Для Души</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="copyright.html">Цитаты</a></li>
-                    <li><a href="Authors.html">Авторы</a></li>
-                    <li><a href="gallery.html">Галерея</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+            <h1>Контакты</h1>
+            <nav class="main-nav">
+                <ul class="nav-grid">
+                    <li><a href="index.html" class="nav-link">Главная</a></li>
+                    <li><a href="gallery.html" class="nav-link">Галерея</a></li>
+                    <li><a href="#" class="nav-link">О проекте</a></li>
+                    <li><a href="copyright.html" class="nav-link">Цитаты</a></li>
+                    <li><a href="#" class="nav-link">Авторы</a></li>
+                    <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
                 </ul>
             </nav>
         </header>
@@ -99,6 +100,14 @@
                             <textarea id="message" name="message" class="form-textarea" placeholder="Опишите ваш вопрос или предложение..." required></textarea>
                         </div>
                         
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="personal_data_consent" required="">
+                                <span class="checkbox-custom"></span>
+                                <span class="checkbox-text">Я даю согласие на обработку моих персональных данных в соответствии с <a href="/privacy-policy" target="_blank">политикой конфиденциальности</a></span>
+                            </label>
+                        </div>
+
                         <button type="submit" class="submit-btn">
                             <i class="fas fa-paper-plane"></i>Отправить сообщение</button>
                     </form>
